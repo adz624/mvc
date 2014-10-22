@@ -9,7 +9,3 @@ module Mvc
     @application ||= Application.new
   end
 end
-
-Mvc::RoutesDefine.routes do
-  get '/', to: 'api/posts#index'
-end
